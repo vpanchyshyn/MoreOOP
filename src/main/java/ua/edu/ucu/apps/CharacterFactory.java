@@ -13,7 +13,12 @@ public class CharacterFactory{ // static factory method
     // }
 
     //implementation with reflections
-    private static final Class<?>[] CHARACTERS = {Hobbit.class, Elf.class, King.class, Knight.class};
+    private static final Class<?>[] CHARACTERS = {
+        Hobbit.class,
+        Elf.class, 
+        King.class, 
+        Knight.class
+    };
     private Random rand = new Random();
 
     public Character createCharacter() {
