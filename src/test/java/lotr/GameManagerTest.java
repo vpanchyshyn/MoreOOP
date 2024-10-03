@@ -1,11 +1,13 @@
+package lotr;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
 
-import ua.edu.ucu.apps.GameManager;
-import ua.edu.ucu.apps.Character;
-import ua.edu.ucu.apps.Hobbit;
-import ua.edu.ucu.apps.Elf;
+import lotr.Character;
+import lotr.Elf;
+import lotr.GameManager;
+import lotr.Hobbit;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 public class GameManagerTest {
     private GameManager gameManager;

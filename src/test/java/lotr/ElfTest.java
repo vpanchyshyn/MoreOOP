@@ -1,12 +1,9 @@
+package lotr;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
-import ua.edu.ucu.apps.Character;
-import ua.edu.ucu.apps.Elf;
-import ua.edu.ucu.apps.Hobbit;
-
 
 public class ElfTest {
     private Character character;

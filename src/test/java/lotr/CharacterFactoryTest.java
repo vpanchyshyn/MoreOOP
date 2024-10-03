@@ -1,9 +1,11 @@
+package lotr;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
 
-import ua.edu.ucu.apps.CharacterFactory;
-import ua.edu.ucu.apps.Character;
+import lotr.Character;
+import lotr.CharacterFactory;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 public class CharacterFactoryTest {
     private CharacterFactory factory;

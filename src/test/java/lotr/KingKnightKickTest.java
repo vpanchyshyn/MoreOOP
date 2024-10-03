@@ -1,9 +1,11 @@
+package lotr;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
 
-import ua.edu.ucu.apps.KingKnightKick;
-import ua.edu.ucu.apps.Character;
+import lotr.Character;
+import lotr.KingKnightKick;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 class TestEnemy extends Character {
     @Override

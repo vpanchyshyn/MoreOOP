@@ -1,10 +1,9 @@
+package lotr;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
-
-import ua.edu.ucu.apps.Character;
-import ua.edu.ucu.apps.King;
 
 public class KingTest {
     private Character character;

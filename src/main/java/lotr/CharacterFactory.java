@@ -1,4 +1,4 @@
-package ua.edu.ucu.apps;
+package lotr;
 
 import java.util.Random;
 

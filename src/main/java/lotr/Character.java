@@ -1,4 +1,4 @@
-package ua.edu.ucu.apps;
+package lotr;
 
 public abstract class Character {
     protected int power;

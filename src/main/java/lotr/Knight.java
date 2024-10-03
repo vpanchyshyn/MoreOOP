@@ -1,4 +1,4 @@
-package ua.edu.ucu.apps;
+package lotr;
 
 public class Knight extends KingKnightKick{
     public Knight() {
